@@ -1,6 +1,13 @@
+import Link from 'next/Link'
+
 const About = () => {
-    return (
-        <h1>About Page!</h1>
+    return ( 
+    <div>
+        <h1>About Page Tess</h1>
+        <Link href="/">
+            <a>Back</a>
+        </Link>
+    </div>
     )
 }
 
